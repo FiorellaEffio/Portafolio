@@ -3,12 +3,21 @@
   color: #333;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
-
+.nav {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: #EFEFEF;
+}
 h1 {
   color: #00FFDD;
 }
 #home {
-  height: 600px;
+  /* display: flex; */
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: 650px;
+  vertical-align: bottom;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("background.png");
@@ -30,7 +39,7 @@ h1 {
 
 /* Set black background color, white text and some padding */
 footer {
-  background-color: #555;
+  background-color: #EFEFEF;
   color: white;
   padding: 15px;
 }
