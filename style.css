@@ -3,8 +3,15 @@
   color: #333;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
+
 h1 {
   color: #00FFDD;
+}
+#home {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("background.png");
 }
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
@@ -30,7 +37,7 @@ footer {
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
-  .sidenav {
+  . nav {
     height: auto;
     padding: 15px;
   }
