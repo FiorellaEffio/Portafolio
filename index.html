@@ -8,17 +8,18 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="container">
   <ul class="nav nav-tabs nav-justified">
-    <li class="active"><a data-toggle="tab" href="#home"><i class="fas fa-home"></i>Home</a></li>
-    <li><a data-toggle="tab" href="#menu1"><i class="fas fa-user"></i>About me</a></li>
-    <li><a data-toggle="tab" href="#menu2"><i class="fas fa-cogs"></i>Skills</a></li>
-    <li><a data-toggle="tab" href="#menu3"><i class="far fa-eye"></i>My projects</a></li>
-    <li><a data-toggle="tab" href="#menu4"><i class="fas fa-envelope"></i>Contact</a></li>
+    <li class="active"><a data-toggle="tab" href="#home"><i class="fas fa-home"></i> Home</a></li>
+    <li><a data-toggle="tab" href="#menu1"><i class="fas fa-user"></i> About me</a></li>
+    <li><a data-toggle="tab" href="#menu2"><i class="fas fa-cogs"></i> Skills</a></li>
+    <li><a data-toggle="tab" href="#menu3"><i class="far fa-eye"></i> My projects</a></li>
+    <li><a data-toggle="tab" href="#menu4"><i class="fas fa-envelope"></i> Contact</a></li>
   </ul>
+<div class="container">
+
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
@@ -36,7 +37,7 @@
         technologies can make our world a better place, it makes sense for me because you can do
         whatever you want with code, also Google is doing it now, sharing information of everything
         in Colombia with people who have only traditional cellphones.
-        <a href="https://www.youtube.com/watch?v=AJPV2MZCFNU">Here is the video, if you are interested in.</a>
+        <a href="https://www.youtube.com/watch?v=AJPV2MZCFNU" target="_blank">Here is the video, if you are interested in.</a>
       </p>
       <p>
         I am motivated to keep learning to be part of this technological transformation and make a social impact
@@ -45,7 +46,7 @@
       <p>
         I admire the philosophy of Richard Stallman in terms of sharing knowledge because I think that
         technology have to be accessible for everyone who wants to learn and have the passion to do it,
-        that is why I have a blog, here you can see my <a href="https://awebablog.wordpress.com/">posts.</a>
+        that is why I have a blog, here you can see my <a href="https://awebablog.wordpress.com/" target="_blank">posts.</a>
       </p>
       <p>
         I studied in Laboratoria, there I learn how to be owner of my own learning and use the agile
@@ -127,15 +128,11 @@
 
       <section id="contact">
         <div class="container">
-          <div class="well well-sm">
-            <h3><strong>Contact Us</strong></h3>
-          </div>
-
+          <h3><strong>Contact Me</strong></h3>
       	<div class="row">
       	  <div class="col-md-7">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3736489.7218514383!2d90.21589792292741!3d23.857125486636733!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1506502314230" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://maps.google.com/maps?q=bellavista&t=k&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-
             <div class="col-md-5">
                 <h4><strong>Get in Touch</strong></h4>
               <form>
@@ -152,16 +149,33 @@
                   <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
                 </div>
                 <button class="btn btn-default" type="submit" name="button">
-                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send
                 </button>
               </form>
             </div>
           </div>
         </div>
       </section>
+        <div class="row" style="height:150px;">
+          <div class="col-md-6">
+            <div class="text-white">
+            <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+51) 987362367</a><br>
+            <i class="fa fa-envelope mt-3"></i> <a href="">fiorellaeffio.pe@gmail.com</a><br>
+            <i class="fas fa-globe mt-3"></i> Callao - Perú<br>
+            <div class="my-4">
+            <a href="https://www.linkedin.com/in/fiorella-effio-saldivar/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="https://github.com/Fiorellaeffio" target="_blank"><i class="fab fa-github fa-3x pr-4"></i></a>
+            </div>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 </div>
+
+<footer class="container-fluid text-center text-center bg-success text-white">
+  <p>by Fiorella Effio Saldivar - 2018</p>
+</footer>
 
 </body>
 </html>
