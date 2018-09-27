@@ -1,4 +1,8 @@
 .masthead {
-  /* background-color: black; */
-  background-image: 'img/background.png';
+  background-color: black;
+}
+@media (max-width: 700px) {
+  #reverse {
+    display: none;
+  }
 }
