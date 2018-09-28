@@ -1,5 +1,21 @@
-.masthead {
-  background-color: black;
+header.masthead {
+  text-align: center;
+  background-color: #333;
+  height: 100vh;
+  background-image: url("img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+#contact {
+  text-align: center;
+  color: white;
+  background-image: url(img/map-image.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
 }
 @media (max-width: 700px) {
   #reverse {
