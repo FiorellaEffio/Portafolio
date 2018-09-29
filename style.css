@@ -56,7 +56,7 @@ input+label {
 
 input+label::before {
     left: 5px;
-    content:'spa'
+    content:'off'
 }
 
 input:checked+label {
@@ -65,5 +65,5 @@ input:checked+label {
 
 input:checked+label::before {
     left: 25px;
-    content:'en'
+    content:'on'
 }
