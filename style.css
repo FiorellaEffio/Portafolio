@@ -29,6 +29,27 @@ header.masthead {
   }
   .mediaScreen {
     display: block;
+    padding-left: 10%;
+  }
+  .hello {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+  .mediaScreen {
+    width: 80%;
+    padding-left: 10%;
+  }
+  .hello {
+    margin-left: -10%;
+  }
+}
+
+@media (max-width: 425px) {
+  .mediaScreen {
+    margin-left: 5%;
+    width: 80%;
   }
 }
 
