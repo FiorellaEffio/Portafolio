@@ -17,9 +17,18 @@ header.masthead {
   background-position: center;
   background-size: cover;
 }
-@media (max-width: 700px) {
+.mediaScreen {
+  display: none;
+}
+@media (max-width: 991px) {
   #reverse {
     display: none;
+  }
+  .square {
+    display: none;
+  }
+  .mediaScreen {
+    display: block;
   }
 }
 
@@ -56,7 +65,7 @@ input+label {
 
 input+label::before {
     left: 5px;
-    content:'off'
+    content:''
 }
 
 input:checked+label {
@@ -65,5 +74,5 @@ input:checked+label {
 
 input:checked+label::before {
     left: 25px;
-    content:'on'
+    content:''
 }
