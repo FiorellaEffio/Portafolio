@@ -11,6 +11,10 @@ header.masthead {
 .progress-bar {
   background-color: #FFED3D;
 }
+#myName {
+  margin-left: 10%;
+  margin-top: 30px;
+}
 #contact {
   text-align: center;
   color: white;
