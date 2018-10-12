@@ -88,7 +88,8 @@ label::before {
 }
 
 input+label {
-    background: gray;
+    background-image: url('img/flagspanish.png');
+    background-size: 50px;
 }
 
 input+label::before {
@@ -97,10 +98,25 @@ input+label::before {
 }
 
 input:checked+label {
-    background: #F1A433;
+    background-image: url('img/flagenglish.png');
 }
 
 input:checked+label::before {
     left: 25px;
-    content:''
+    content:'';
+}
+#divToggle {
+  display: inline;
+  padding-top: 30%;
+}
+#myName {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 70px;
+  font-size: 30px;
+}
+
+.img-language {
+  width: 30px;
+  display: inline-block;
 }
